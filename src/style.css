@@ -1,0 +1,239 @@
+@media (min-width: 1024px) {
+  body {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .main-theme {
+    max-width: 400px;
+  }
+  .layer-clouds {
+    max-width: 500px;
+  }
+}
+
+html {
+  width: 100vw;
+  font-size: 100%;
+}
+
+body {
+  border: 1px solid gray;
+  width: 100vw;
+  font-family: "Oswald", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-theme {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+  opacity: 80%;
+}
+
+.layer-clouds {
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+  opacity: 100%;
+}
+
+.UOM-temp,
+#celsius,
+#fahrenheit {
+  position: relative;
+}
+/*.front-layer {
+  overflow: hidden;
+}
+
+.layer-clouds {
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+  opacity: 100%;
+  animation: moveRightToLeftCloud 14s linear infinite running;
+}
+
+@keyframes moveRightToLeftCloud {
+  0% {
+    opacity: 100%;
+    transform: translate(500px, 0);
+  }
+  50% {
+    transform: translate(0px, 0);
+  }
+  100% {
+    opacity: 100%;
+    transform: translate(-500px, 0);
+  }
+}
+
+.cloud-2 {
+  padding-top: 35px;
+  opacity: 0;
+  animation-delay: 7s;
+} */
+
+.scrolling-wrapper {
+  opacity: 60%;
+}
+
+.form-check-input {
+  margin-left: 10px;
+}
+
+/*.image-six-chibi {
+  display: block;
+  max-width: 110%;
+  margin: -40px;
+}
+*/
+
+.image-six-chibi {
+  width: 100%;
+}
+
+/*.
+.totoro-moving {
+  width: auto;
+  height: 100px;
+  position: absolute;
+  z-index: 0;
+  margin: 0 auto;
+  opacity: 80%;
+  padding: -10px; 
+}
+*/
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 40px;
+}
+h2 {
+  font-size: 40px;
+  line-height: 44px;
+}
+h4 {
+  text-align: center;
+}
+p {
+  margin: 0;
+}
+
+.search-panel {
+  margin: 15px auto 0;
+}
+#button-settings {
+  margin-right: 10px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+#button-location-gps {
+  border-radius: 4px 0px 0px 4px;
+  font-size: 20px;
+}
+
+.form-control {
+  line-height: 30px;
+}
+#current-temperature {
+  font-size: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.UOM-temp {
+  font-size: 30px;
+  opacity: 100%; /* change back to zero*/
+  position: relative;
+  top: -45px; /* replace by smth less fixed*/
+}
+.row-1 {
+  padding-top: 10px;
+  line-height: 100px;
+}
+
+.today-other {
+  font-size: 20px;
+  line-height: 25px;
+  text-align: right;
+}
+.today-results {
+  --bs-gutter-x: 0;
+}
+.today-UOM,
+.update-time {
+  text-align: left;
+}
+
+.image-weather-small {
+  display: inline-block;
+  max-width: 80%;
+}
+.image-footer {
+  width: 15%;
+}
+.hourly,
+.weekly {
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  max-width: 16%;
+  margin: 1px;
+}
+
+.scrolling-wrapper {
+  overflow: auto;
+  white-space: nowrap;
+  padding-right: 10px;
+}
+
+.clickables:hover {
+  cursor: pointer;
+  font-size: larger;
+  opacity: 80%;
+}
+
+h1,
+h2,
+h3 {
+  opacity: 80%;
+}
+
+h3:first-letter {
+  text-transform: capitalize;
+}
+#current-weather-indices {
+  background-color: #fff;
+  border-radius: 4px;
+  opacity: 60%;
+  padding: 12px;
+}
+
+#placeholderUOM,
+#current-weather-indices {
+  visibility: collapse;
+}
+
+.visible {
+  visibility: visible;
+}
+.hidden {
+  visibility: hidden;
+}
+.collapsed {
+  visibility: collapse;
+}
